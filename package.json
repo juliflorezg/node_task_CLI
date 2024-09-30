@@ -1,0 +1,21 @@
+{
+  "name": "task_cli",
+  "version": "1.0.0",
+  "description": "A CLI utility to manage your current tasks",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "Julian Florez",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.7.3",
+    "typescript": "^5.6.2"
+  }
+}
